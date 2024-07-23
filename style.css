@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Poppins:wght@200;300;600&family=Sora:wght@200;300;400;600;700&display=swap');
+
+
+
+body {
+    font-family: Sora;
+    font-weight: 100;
+}
+
+
+input {
+    font-family: Exo 2;
+    font-weight: lighter;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+input:focus {
+    transition: .1s;
+    border-color: #00fcfc;
+
+}
+
+
+
+.Bold {
+    font-weight: 600;
+}
+
+
+label {
+    font-weight: 600;
+}
+
+.Bolder {
+    font-weight: 700;
+}
+
+textarea {
+    resize: none;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.label {
+    transform: translateY(-12px);
+}
+
+.adjust {
+  transform: translateY(-7px);
+}
+
+
+.hide {
+    display: none;
+}
+
+.box-bg {
+    background-color: rgb(217, 217, 217);
+    border-radius: 20px;
+}
+
+   
+.footer {
+    background-color: rgb(21, 20, 20);
+    font-family: Poppins !important;
+  }
+  
+  .foot1 {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .foot3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .foot2 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  .footer-col h3 {
+    color: white;
+    padding-left: 30px;
+    padding-right: 90px;
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .footer-col h3::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    background-color: rgb(13, 110, 253);
+    height: 2px;
+    box-sizing: border-box;
+    width: 70px;
+  
+  }
+  
+  .footer-col ul li a {
+    color: rgb(210, 206, 206);
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    color: rgb(13, 110, 253);
+    padding-left: 15px;
+  }
+  
+  .icon {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 220%;
+    color: white;
+    transition: all 0.5s ease;
+  }
+  
+  .icon:hover {
+    color: rgb(13, 110, 253);
+  }
+  
+  .social {
+    margin-top: 45px;
+    padding-left: 10px;
+  }
+  
+  
+  .footer_word {
+    font-family: Poppins;
+    font-size: 100%;
+  }
+  
+  #insta:hover {
+    color: rgb(243, 1, 207);
+  }
+  
+  #twitter:hover {
+    color: rgb(29, 155, 240);
+  }
+  
+  #facebook:hover {
+    color: rgb(9, 119, 224);
+  }
+  
+  #linkedin:hover {
+    color: rgb(0, 119, 181);
+  }
+  
+
+  .cal__btn{
+    border: 2px solid;
+    border-color: #000000;
+    border-style: outset;
+    background-image: linear-gradient(45deg,rgb(1, 31, 255) 7%,#00fcfc,rgb(21, 0, 255));
+    background-size: 500% 400%;
+    color: white;
+    border-radius: 15px;
+    transition: 0.6s all;
+   }
+   
+   .cal__btn:hover {
+    color: #000000;
+    letter-spacing: 0.5px;
+    border-width: 2px;
+    background-position: 75% 50%;
+    transform: translateY(-2px);
+   }
+   
+   .cal__btn:active {
+    transform: scale(0.95);
+    transition: 0.3s;
+   }
+
+   .red{
+    color: red;
+   }
+
+
+   #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 119, 224);
+    color: white;
+    cursor: pointer;
+    border-radius: 19px;
+    padding: 8px 15px;
+  }
+  
+  #myBtn:hover {
+    background-color: #646464;
+  }
